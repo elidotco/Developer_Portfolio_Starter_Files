@@ -96,6 +96,8 @@ nav.open {
 
 .menu-btn {
   cursor: pointer;
+  padding-top: 1rem !important;
+  padding-right: 1rem;
 }
 
 .menu-nav_item:nth-child(1) {
@@ -125,17 +127,36 @@ nav.open {
   background: orangered;
 }
 
+.logo h2 {
+  padding-top: 0.7rem;
+  padding-left: 1rem;
+  font-family: "Prata";
+}
+
 @media screen and (min-width: 1024px) {
+  .logo h2 {
+    padding: 0;
+  }
+  .hero {
+    padding: 10rem 5rem 2rem 5rem;
+  }
+  .hero .title {
+    width: 50vw;
+  }
+  .menu-btn {
+    padding: 0;
+  }
   .nav {
     visibility: visible;
     width: 100vw;
-    padding-left: 7rem;
+    margin-left: 34vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    padding-left: 5rem;
   }
   .nav .menu-nav {
     display: block;
@@ -145,7 +166,6 @@ nav.open {
     background: transparent;
     text-align: right;
     padding-right: 2rem;
-    margin-left: 30vw;
   }
   .nav .menu-nav_item {
     display: inline;
@@ -159,14 +179,38 @@ nav.open {
   }
   header {
     width: 100vw;
-    background-color: black;
+    background-color: black !important;
+    padding-right: 5rem;
   }
   .contact {
     margin-left: 16rem;
   }
+  .ports {
+    padding-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .port {
+    width: 40vw !important;
+  }
+  .port h1 {
+    padding: 2rem 0 1rem 0;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .port p {
+    padding-bottom: 1rem;
+  }
+  .port img {
+    width: 40vw !important;
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   port {
     width: 100vw;
   }
@@ -176,10 +220,16 @@ nav.open {
   }
   .title {
     width: 100vw;
+    padding: 0;
   }
   ports {
-    display: block;
+    display: inline-block;
     width: 100vw;
+  }
+  header {
+    width: 100vw;
+    padding: 0;
+    background-color: black;
   }
 }
 
@@ -190,11 +240,11 @@ body {
 }
 
 .hero {
-  padding: 10rem 6rem 2rem 7rem;
+  padding: 10rem 7rem 2rem 1rem;
 }
 
 .title {
-  width: 50vw;
+  width: 90vw;
 }
 
 .title-header {
@@ -203,7 +253,7 @@ body {
 }
 
 .title p {
-  width: 90%;
+  width: 100%;
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -214,24 +264,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .ports {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-top: 3rem;
-  width: 100%;
 }
 
 .port {
-  width: 40vw;
+  width: 90vw;
 }
 
 .port h1 {
@@ -242,6 +287,10 @@ body {
 
 .port p {
   padding-bottom: 1rem;
+}
+
+.port img {
+  width: 90vw;
 }
 
 .exp {
@@ -255,6 +304,7 @@ body {
 
 .contact-list {
   padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .contact-list p {
@@ -276,11 +326,14 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #1f1e1e;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 .footer img {
   padding-right: 1rem;
+}
+
+.footer .logo h2 {
+  padding-top: 0;
 }
 /*# sourceMappingURL=main.css.map */

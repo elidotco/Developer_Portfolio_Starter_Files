@@ -9,19 +9,18 @@ body {
 }
 
 .hero {
-  padding: 10rem 6rem 2rem 7rem;
+  padding: 10rem 7rem 2rem 1rem;
 }
 
 .title {
-  width: 50vw;
-
+  width: 90vw;
   &-header {
     font-size: 3rem;
     font-weight: 500;
   }
 
   p {
-    width: 90%;
+    width: 100%;
     padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -31,17 +30,15 @@ body {
 .companies {
   padding-top: 4rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .ports {
-  display: flex;
-  justify-content: space-between;
   padding-top: 3rem;
-  width: 100%;
 }
 .port {
-  width: 40vw;
+  width: 90vw;
   h1 {
     padding: 2rem 0 1rem 0;
     font-weight: 400;
@@ -49,6 +46,9 @@ body {
   }
   p {
     padding-bottom: 1rem;
+  }
+  img {
+    width: 90vw;
   }
 }
 
@@ -62,6 +62,7 @@ body {
 
 .contact-list {
   padding-top: 2rem;
+  padding-bottom: 3rem;
 
   p {
     padding-bottom: 2rem;
@@ -79,10 +80,14 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: rgb(31, 30, 30);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 
   img {
     padding-right: 1rem;
+  }
+  .logo {
+    h2 {
+      padding-top: 0;
+    }
   }
 }

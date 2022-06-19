@@ -1,20 +1,37 @@
 @include media-lg {
+  .logo {
+    h2 {
+      padding: 0;
+    }
+  }
+  .hero {
+    padding: 10rem 5rem 2rem 5rem;
+
+    .title {
+      width: 50vw;
+    }
+  }
+  .menu-btn {
+    padding: 0;
+  }
   .nav {
     visibility: visible;
     width: 100vw;
-    padding-left: 7rem;
+    margin-left: 34vw;
+
     display: flex;
     justify-content: flex-start;
+    padding-left: 5rem;
 
     .menu-nav {
       display: block;
+
       transform: translateY(0);
       height: 100%;
       background: transparent;
       text-align: right;
       padding-right: 2rem;
 
-      margin-left: 30vw;
       &_item {
         display: inline;
         padding-right: 1.5rem;
@@ -30,10 +47,32 @@
   }
   header {
     width: 100vw;
-    background-color: black;
+    background-color: black !important;
+
+    padding-right: 5rem;
   }
   .contact {
     margin-left: 16rem;
+  }
+
+  .ports {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .port {
+    width: 40vw !important;
+    h1 {
+      padding: 2rem 0 1rem 0;
+      font-weight: 400;
+      font-size: 2rem;
+    }
+    p {
+      padding-bottom: 1rem;
+    }
+    img {
+      width: 40vw !important;
+    }
   }
 }
 
@@ -47,9 +86,15 @@
   }
   .title {
     width: 100vw;
+    padding: 0;
   }
   ports {
-    display: block;
+    display: inline-block;
     width: 100vw;
+  }
+  header {
+    width: 100vw;
+    padding: 0;
+    background-color: black;
   }
 }

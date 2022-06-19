@@ -65,6 +65,8 @@ nav {
 
 .menu-btn {
   cursor: pointer;
+  padding-top: 1rem !important;
+  padding-right: 1rem;
 }
 
 @for $i from 1 through 4 {
@@ -78,4 +80,12 @@ nav {
   text-decoration: none;
   color: black;
   background: orangered;
+}
+
+.logo {
+  h2 {
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+    font-family: "Prata";
+  }
 }
