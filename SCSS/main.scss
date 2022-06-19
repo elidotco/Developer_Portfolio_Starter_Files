@@ -1,0 +1,88 @@
+@import "config";
+@import "menu";
+@import "responsive";
+
+body {
+  background: black !important;
+  color: white !important;
+  font-family: "Inter";
+}
+
+.hero {
+  padding: 10rem 6rem 2rem 7rem;
+}
+
+.title {
+  width: 50vw;
+
+  &-header {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  p {
+    width: 90%;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.companies {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ports {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  width: 100%;
+}
+.port {
+  width: 40vw;
+  h1 {
+    padding: 2rem 0 1rem 0;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  p {
+    padding-bottom: 1rem;
+  }
+}
+
+.exp {
+  background-color: rgb(31, 30, 30);
+  padding-top: 2rem;
+  h1 {
+    font-weight: 400;
+  }
+}
+
+.contact-list {
+  padding-top: 2rem;
+
+  p {
+    padding-bottom: 2rem;
+  }
+}
+
+.contacts {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  background: orangered;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(31, 30, 30);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  img {
+    padding-right: 1rem;
+  }
+}

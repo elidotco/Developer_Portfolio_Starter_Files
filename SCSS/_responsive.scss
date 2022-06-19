@@ -1,0 +1,38 @@
+@include media-md {
+  .nav {
+    visibility: visible;
+    width: 100vw;
+    padding-left: 7rem;
+    display: flex;
+    justify-content: flex-start;
+
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 100%;
+      background: transparent;
+      text-align: right;
+      padding-right: 2rem;
+
+      margin-left: 30vw;
+      &_item {
+        display: inline;
+        padding-right: 1.5rem;
+      }
+      &_link {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .menu-btn {
+    visibility: hidden;
+  }
+  header {
+    width: 100vw;
+    background-color: black;
+  }
+  .contact {
+    margin-left: 16rem;
+  }
+}
