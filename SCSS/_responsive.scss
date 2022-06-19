@@ -1,4 +1,4 @@
-@include media-md {
+@include media-lg {
   .nav {
     visibility: visible;
     width: 100vw;
@@ -34,5 +34,22 @@
   }
   .contact {
     margin-left: 16rem;
+  }
+}
+
+@include small {
+  port {
+    width: 100vw;
+  }
+  .hero {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .title {
+    width: 100vw;
+  }
+  ports {
+    display: block;
+    width: 100vw;
   }
 }

@@ -125,7 +125,7 @@ nav.open {
   background: orangered;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .nav {
     visibility: visible;
     width: 100vw;
@@ -163,6 +163,23 @@ nav.open {
   }
   .contact {
     margin-left: 16rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  port {
+    width: 100vw;
+  }
+  .hero {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .title {
+    width: 100vw;
+  }
+  ports {
+    display: block;
+    width: 100vw;
   }
 }
 
