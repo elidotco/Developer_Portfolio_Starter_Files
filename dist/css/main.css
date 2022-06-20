@@ -138,7 +138,7 @@ nav.open {
     padding: 0;
   }
   .hero {
-    padding: 10rem 5rem 2rem 5rem;
+    padding-left: 5rem !important;
   }
   .hero .title {
     width: 50vw;
@@ -240,7 +240,7 @@ body {
 }
 
 .hero {
-  padding: 10rem 7rem 2rem 1rem;
+  padding: 10rem 6rem 2rem 2rem;
 }
 
 .title {
